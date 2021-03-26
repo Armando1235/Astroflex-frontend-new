@@ -12,13 +12,17 @@ const LayoutRoute = (props) => {
                 links={
                 [
                     {
+                    'path': '/',
+                    'label': 'Home'
+                    },  
+                    {
                     'path': '/signup',
-                    'label': 'Click here for the signup page'
+                    'label': 'Register'
                     },
                     {
                     'path': '/about',
-                    'label': 'Click here for the about page'
-                    }
+                    'label': 'About us'
+                    },
                 ]
                 } 
             />
