@@ -19,6 +19,10 @@ const LayoutRoute = (props) => {
                     'path': '/signup',
                     'label': 'Register'
                     },
+                    {
+                    'path': '/about',
+                    'label': 'About us'
+                    },
                 ]
                 } 
             />

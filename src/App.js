@@ -12,6 +12,7 @@ const App = () => {
           <Switch>
               <LayoutRoute path="/" exact={true} component={MainScreen}  />
               <LayoutRoute path="/signup" exact={true} component={Signup} />
+              <LayoutRoute path="/about" exact={true} component={About} />
           </Switch>
       </BrowserRouter>
   )    
