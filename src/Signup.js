@@ -77,15 +77,15 @@ const Signup = () => {
             // 2 Show "sending..." and invoke the fetch()
             setState("sending");
 
-            formData.append('firstName', firstNameField.value);
-            formData.append('lastName', lastNameField.value);
+            formData.append('firstname', firstNameField.value);
+            formData.append('lastname', lastNameField.value);
             formData.append('email', emailField.value);
             formData.append('password', passwordField.value);
-            formData.append('phoneNumber', phoneNumberField.value);
+            formData.append('phonenum', phoneNumberField.value);
             formData.append('dob', dobField.value);
-            formData.append('address', addressField.value);
-            formData.append('vehicletype', vehicleTypeField.value);
-            formData.append('emiratedid', emiratesIDField.value);
+            formData.append('adress', addressField.value);
+            formData.append('vehicleType', vehicleTypeField.value);
+            formData.append('emiratedId', emiratesIDField.value);
 
 
             fetch(
