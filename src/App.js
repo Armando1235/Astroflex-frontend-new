@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import LayoutRoute from './LayoutRoute';
 import MainScreen from './MainScreen';
 import About from './About';
+import TestAbout from './About';
 
 
 const App = () => {
