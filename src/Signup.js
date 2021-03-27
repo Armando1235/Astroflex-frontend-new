@@ -217,14 +217,7 @@ const Signup = () => {
                                 id="exampleInputVehicleType" 
                                 aria-describedby="VehicleTypeHelp"
                             />
-                        </div>
-                        <div class="mb-3">
-                            <label for="fDrivingLicenseForm" class="form-label">Upload a picture of your driving license.</label>
-                            <input 
-                            onChange={attachFile}
-                            class="form-control" type="file" id="DrivingLicenseForm" />
-                        </div>
-                                
+                        </div>               
                         { 
                             (state !== "sending" && state !== "successful") && 
                             <button onClick={register} type="submit" className="btn btn-primary mb-4">Submit</button> 
