@@ -85,7 +85,7 @@ const Signup = () => {
             formData.append('dob', dobField.value);
             formData.append('adress', addressField.value);
             formData.append('vehicleType', vehicleTypeField.value);
-            formData.append('emiratedId', emiratesIDField.value);
+            formData.append('emiratesId', emiratesIDField.value);
 
 
             fetch(
