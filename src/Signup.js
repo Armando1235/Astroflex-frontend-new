@@ -146,7 +146,7 @@ const Signup = () => {
                             <label for="exampleInputEmiratesID" className="form-label">Emirates ID Number</label>
                             <input 
                                 type="text" 
-                                ref={ (element) => addressField = element }
+                                ref={ (element) => emiratesIDField = element }
                                 className="form-control" 
                                 id="exampleInputEmiratesID" 
                                 aria-describedby="EmiratesIDHelp"
