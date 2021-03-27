@@ -212,7 +212,7 @@ const Signup = () => {
                             <label for="exampleInputVehicleType" className="form-label">Vehicle Type</label>
                             <input 
                                 type="text" 
-                                ref={ (element) => addressField = element }
+                                ref={ (element) => vehicleTypeField = element }
                                 className="form-control" 
                                 id="exampleInputVehicleType" 
                                 aria-describedby="VehicleTypeHelp"
